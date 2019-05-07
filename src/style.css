@@ -1,6 +1,6 @@
 * {
     padding: 0%;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(255, 255, 255);
     /* color: rgb(237, 240, 58); */
     text-align: -webkit-center;
     /* font-family: 'Fascinate Inline', cursive; */
@@ -11,21 +11,30 @@ i {
     padding: 3px;
 }
 
-.size-icon{
-    width: 40px;
+.size-icon {
+    width: 35px;
     padding: 3px;
+    vertical-align: bottom;
+
 }
 
-.yellow{
+.yellow {
     color: gold;
 }
 
-.orange{
+.green {
+    color: rgb(18, 180, 80);
+}
+.orange {
     color: darkorange;
 }
 
-.blue{
+.blue {
     color: dodgerblue;
+}
+
+.red{
+    color: #fb3e44;
 }
 
 
@@ -35,7 +44,7 @@ i {
     cursor: pointer;
     -webkit-transition-duration: 0.10s;
     transition-duration: 0.4s;
-    
+
     font-size: 20px;
     width: 150px;
     height: 30px;
@@ -56,7 +65,7 @@ i {
     transform: translateY(8px);
 }
 
-.button-nav{
+.button-nav {
 
     display: inline-block;
 
