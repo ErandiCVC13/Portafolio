@@ -1,25 +1,33 @@
 * {
     padding: 0%;
-    background-color: black;
-    color: rgb(237, 240, 58);
+    background-color: rgb(253, 251, 251);
+    /* color: rgb(237, 240, 58); */
     text-align: -webkit-center;
-    font-family: 'Fascinate Inline', cursive;
-}
-
-#demotext {
-    color: #FFFFFF;
-
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-
-    background-color: black;
-    font-size: 50px;
-
-    padding: 50px;
+    /* font-family: 'Fascinate Inline', cursive; */
 }
 
 i {
-    font-size: 50px;
+    font-size: 30px;
+    padding: 3px;
 }
+
+.size-icon{
+    width: 40px;
+    padding: 3px;
+}
+
+.yellow{
+    color: gold;
+}
+
+.orange{
+    color: darkorange;
+}
+
+.blue{
+    color: dodgerblue;
+}
+
 
 .myButton {
     border-radius: 20px;
@@ -27,7 +35,7 @@ i {
     cursor: pointer;
     -webkit-transition-duration: 0.10s;
     transition-duration: 0.4s;
-    color: rgb(237, 240, 58);
+    
     font-size: 20px;
     width: 150px;
     height: 30px;
@@ -46,12 +54,6 @@ i {
 .myButton:active {
     box-shadow: 0 7px #666;
     transform: translateY(8px);
-}
-
-.img-rep{
-    width: 400px;
-    display: inline-block;
-    padding-bottom: 47px;;
 }
 
 .button-nav{
