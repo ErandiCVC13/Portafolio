@@ -2,126 +2,218 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <title>ErandiCVC</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/business-color_contacts_icon-icons.com_53460.ico" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+  <nav class="navbar navbar-expand-lg  fixed-top navbar-dark nav-color font-nav">
+    <a class="navbar-brand" href="#"><img class="icon-crow" src="./assets/img/crow.png" alt=""> ERANDI CUERVO</a>
+    <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="far fa-caret-square-down"></i></span>
+      <span><img src="./assets/img/menu.png" alt=""></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link " href="#home">INICIO </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#aboutme">ACERCA DE MI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1">Disabled</a>
+          <a class="nav-link" href="#proyects">PROYECTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">HABILIDADES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACTO</a>
         </li>
       </ul>
-
     </div>
   </nav>
-<h2>Proyectos</h2>
-  <div class="card-deck">    
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="assets/img/datalovers.png" class="card-img" alt="...">
+  <section id="home" class="home-section">
+    <div class="container-fluid">
+      <div class="row justify-content-md-center contenedor-principal">
+        <div class="col-sm second-section">
+          <h1 class="font-cont">Front-End</h1>
+          <h2 class="font-cont">Developer</h2>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Data Dex</h5>
-            <p class="card-text">Proyecto final del Common Core de Laboratoria. Se desarrolló una página web para visualizar un conjunto de datos para los usuarios de Pokémon Go.</p>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="fab fa-css3-alt blue"></i><i class="fab fa-html5 orange"></i><i
-                  class="fab fa-js-square yellow"></i></li>
-            </ul>
-            <br>
-            <a href="https://erandicvc13.github.io/cdmx-2019-01-bc-core-data-lovers/src/"
-              class="btn btn-primary">Demo</a>
-            <a href="https://github.com/ErandiCVC13/cdmx-2019-01-bc-core-data-lovers"
-              class="btn btn-primary">Proyecto</a>
-          </div>
+        <div class="col-sm first-section">
+          <img class="img-fluid"
+            src="http://www.p3design.com/inside/wp-content/uploads/tumblr_luda3yYxzm1qzt4vjo1_500.gif" alt="">
         </div>
       </div>
     </div>
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="assets/img/social-network.png" class="card-img" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Geek It</h5>
-            <p class="card-text">
-              <p>Primer proyecto del track de Frontend en Laboratoria. Geek It es una red social dirigida a estudiantes
-                de bootcamps en la Ciudad de México.</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fab fa-css3-alt blue"></i><i class="fab fa-html5 orange"></i><i
-                    class="fab fa-js-square yellow"></i><img class="size-icon" src="assets/img/logo.png"></li>
-              </ul>
-              <br>
-              <a href="https://erandicvc13.github.io/CDMX007-social-network/src/#/" class="btn btn-primary">Demo</a>
-              <a href="https://github.com/ErandiCVC13/CDMX007-social-network" class="btn btn-primary">Proyecto</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  </section>
 
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="assets/img/md-links.png" class="card-img" alt="...">
-        </div>
-        <div class="col-md-8">
+  <section id="aboutme" class="aboutme-section font-nav contenedor-principal">
+    <h2 class="bold-font title-section">ACERCA DE MI</h2>
+  </section>
+
+  <section id="proyects" class="size-section font-nav contenedor-principal proyect-section">
+    <h2 class="bold-font title-section">PROYECTOS</h2>
+    <div class="container-fluid">
+
+      <div class="card-deck px-5">
+        <div class="card contenedor-principal ">
+          <div class="contenedor-principal"><img class=" img-card"
+              src="https://github.com/ErandiCVC13/Portafolio/blob/master/src/assets/img/datalovers.png?raw=true"
+              alt="Card image cap"></div>
           <div class="card-body">
-            <h5 class="card-title">md-links-check</h5>
-            <p class="card-text">Libreria de npm que permite analizar archivos en formato Markdown, para verificar los
+            <h5 class="card-title font-cont bold-font">DATA-DEX</h5>
+            <p class="card-text text-card-proyect">Proyecto final del Common Core de Laboratoria. Se desarrolló una
+              página web para
+              visualizar un conjunto de datos para los usuarios de Pokémon Go.</p>
+          </div>
+          <div class=" background-black">
+            <small class="text-muted"><a href="https://erandicvc13.github.io/cdmx-2019-01-bc-core-data-lovers/src/"
+                target="blank" class="card-link text-light">DEMO</a>
+              <a href="https://github.com/ErandiCVC13/cdmx-2019-01-bc-core-data-lovers" target="blank"
+                class="card-link text-light">PROYECTO</a></small>
+          </div>
+        </div>
+        <div class="card card contenedor-principal">
+          <div class="contenedor-principal">
+            <img class=" img-card"
+              src="https://github.com/ErandiCVC13/Portafolio/blob/master/src/assets/img/social-network.png?raw=true"
+              alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title font-cont bold-font">GEEK IT</h5>
+            <p class="card-text text-card-proyect">Primer proyecto del track de Frontend en Laboratoria. Geek It es una
+              red social dirigida a estudiantes
+              de bootcamps en la Ciudad de México.</p>
+          </div>
+          <div class="background-black">
+            <small class="text-muted"><a href="https://erandicvc13.github.io/CDMX007-social-network/src/#/"
+                target="blank" class="card-link text-light">DEMO</a>
+              <a href="https://github.com/ErandiCVC13/CDMX007-social-network" target="blank"
+                class="card-link text-light">PROYECTO</a></small>
+          </div>
+        </div>
+        <div class="card card contenedor-principal">
+          <div class="contenedor-principal">
+            <img class=" img-card"
+              src="https://github.com/ErandiCVC13/Portafolio/blob/master/src/assets/img/md-links.png?raw=true"
+              alt="Card image cap"></div>
+          <div class="card-body">
+            <h5 class="card-title font-cont bold-font">MD-LINKS</h5>
+            <p class="card-text text-card-proyect">Libreria de npm que permite analizar archivos en formato Markdown,
+              para verificar los
               links que contengan y reportar algunas estadísticas.</p>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="fab fa-npm red"></i><i class="fab fa-node green"><i
-                    class="fab fa-js-square yellow"></i></i></li>
-            </ul>
-            <br>
-            <a href="https://www.npmjs.com/package/md-links-check" class="btn btn-primary">Demo</a>
-            <a href="https://github.com/ErandiCVC13/CDMX007-fe-md-links" class="btn btn-primary">Proyecto</a>
+          </div>
+          <div class="background-black">
+            <small class="text-muted"><a href="https://www.npmjs.com/package/md-links-check" target="blank"
+                class="card-link text-light">DEMO</a>
+              <a href="https://github.com/ErandiCVC13/CDMX007-fe-md-links" target="blank"
+                class="card-link text-light">PROYECTO</a></small>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <section id="skills" class="proyect-section font-nav contenedor-principal">
+    <h2 class="bold-font title-section">CONOCIMIENTOS Y HABILIDADES</h2>
+    <div class="container contenedor-principal">
+      <div class="row px-5">
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="background-black">
+                <h5 class="card-title">HABILIDADES TÉCNICAS</h5>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-4 " src="/src/assets/img/html.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/github.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/nodejs.png" alt="">
+                  </div>
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/css.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/react.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/npm.png" alt="">
+                  </div>
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/javascript.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/firebase.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-4" src="/src/assets/img/boostrap.png" alt="">
+                  </div>
+                </div>
+              </div>
 
 
-  <h2>Contacto</h2>
-  <section>
-  <button class="myButton" onclick="location.href='https://github.com/ErandiCVC13'"><i
-      class="fab fa-github"></i></button>
 
-  <button class="myButton" onclick="location.href='https://www.linkedin.com/in/ErandiCVC13'"><i
-      class="fab fa-linkedin"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="background-black">
+                <h5 class="card-title">SOFT-SKILLS</h5>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-3 " src="/src/assets/img/adaptabilitie.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/workteam.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/idea.png" alt="">
+                  </div>
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/iniciativa.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/lider.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/empatia.png" alt="">
+                  </div>
+                  <div class="col-sm">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/asetivo.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/problemas.png" alt="">
+                    <img class="img-thumbnail img-fluid mt-2 p-3" src="/src/assets/img/auto.png" alt="">
+                  </div>
+                </div>
+              </div>
 
-  <button class="myButton"
-    onclick="location.href='https://drive.google.com/file/d/1jghx5C3qYb2SkbKOhnBC0ynkNd0POcaB/view?usp=sharing'"><i
-      class="fas fa-address-card"></i></button>
-    </section>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section font-nav contenedor-principal">
+    <h2 class="bold-font title-section">CONTACTO</h2>
+    <button class="myButton" onclick="location.href='https://github.com/ErandiCVC13'">
+      <i class="fab fa-github"></i>
+    </button>
+
+    <button class="myButton" onclick="location.href='https://www.linkedin.com/in/ErandiCVC13'">
+      <i class="fab fa-linkedin"></i>
+    </button>
+
+    <button class="myButton"
+      onclick="location.href='https://drive.google.com/file/d/1jghx5C3qYb2SkbKOhnBC0ynkNd0POcaB/view?usp=sharing'">
+      <i class="fas fa-address-card"></i>
+    </button>
+    <p>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a
+          href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+          href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+          BY</a></div>
+    </p>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -132,7 +224,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
 </body>
 
 </html>

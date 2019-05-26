@@ -1,72 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rajdhani&display=swap');
+
 * {
-    padding: 0%;
-    background-color: rgb(255, 255, 255);
-    /* color: rgb(237, 240, 58); */
-    text-align: -webkit-center;
-    /* font-family: 'Fascinate Inline', cursive; */
+  padding: 0%;
 }
 
 i {
-    font-size: 30px;
-    padding: 3px;
+  font-size: 30px;
+  padding: 3px;
+}
+
+.font-nav {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 20px;
+}
+
+.font-cont {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.bold-font {
+  font-weight: bold;
 }
 
 .size-icon {
-    width: 35px;
-    padding: 3px;
-    vertical-align: bottom;
-
+  width: 35px;
+  padding: 3px;
+  vertical-align: bottom;
 }
 
 .yellow {
-    color: gold;
+  color: gold;
 }
 
 .green {
-    color: rgb(18, 180, 80);
+  color: rgb(18, 180, 80);
 }
+
 .orange {
-    color: darkorange;
+  color: darkorange;
 }
 
 .blue {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
-.red{
-    color: #fb3e44;
+.red {
+  color: #fb3e44;
 }
-
 
 .myButton {
-    border-radius: 20px;
-    border: 3% groove #ff8000;
-    cursor: pointer;
-    -webkit-transition-duration: 0.10s;
-    transition-duration: 0.4s;
+  border-radius: 20px;
+  border: 3% groove #ff8000;
+  cursor: pointer;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.4s;
 
-    font-size: 20px;
-    width: 150px;
-    height: 30px;
-
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
 }
 
 .myButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: black;
-    color: black;
-    border: solid;
-    border-width: 2px;
-    transform: translateY(4px);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+  color: black;
+  border: solid;
+  border-width: 2px;
+  transform: translateY(4px);
 }
 
 .myButton:active {
-    box-shadow: 0 7px #666;
-    transform: translateY(8px);
+  box-shadow: 0 7px #666;
+  transform: translateY(8px);
 }
 
 .button-nav {
+  display: inline-block;
+}
 
-    display: inline-block;
 
+
+
+.nav-color {
+  background-color: black;
+}
+
+.first-section {
+  background-color: black;
+
+  padding-top: 2%;
+  padding-bottom: 11%;
+}
+
+.contenedor-principal {
+  text-align: center;
+}
+
+.second-section {
+  padding-top: 20%;
+  padding-bottom: 6%;
+}
+
+.img-card {
+  width: 37%
+}
+
+.text-card-proyect {
+  text-align: justify;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.background-black {
+  padding: .75rem 1.25rem;
+  color: azure;
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  background-color: rgb(40, 42, 44);
+}
+
+.proyect-section {
+  padding-right: 4%;
+  padding-left: 4%;
+  height: auto;
+  margin-top: 0%;
+  padding-top: 90px;
+}
+
+.home-section {
+  height: 700px;
+  margin-top: 0%;
+  padding-top: 3%;
+}
+
+.aboutme-section {
+  padding-right: 4%;
+  padding-left: 4%;
+  height: 696px;
+  margin-top: 0%;
+  padding-top: 90px;
+}
+
+.contact-section {
+  padding-right: 4%;
+  padding-left: 4%;
+  height: auto;
+  margin-top: 0%;
+  padding-top: 90px;
+  background-color: black;
+  color: azure;
+}
+
+.title-section {
+  margin-bottom: 3%;
+
+  border-bottom: solid;
+  border-color: darkgrey;
+  padding-bottom: 1%;
 }
