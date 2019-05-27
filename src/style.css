@@ -91,7 +91,7 @@ i {
   background-color: black;
 
   padding-top: 2%;
-  padding-bottom: 11%;
+  padding-bottom: 10%;
 }
 
 .contenedor-principal {
@@ -128,7 +128,7 @@ i {
 }
 
 .home-section {
-  height: 700px;
+  height: auto;
   margin-top: 0%;
   padding-top: 3%;
 }
