@@ -50,7 +50,7 @@
   padding-left: 9%;
   height: auto;
   margin-top: 0%;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .home-section {
@@ -62,9 +62,9 @@
 .aboutme-section {
   padding-right: 4%;
   padding-left: 4%;
-  height: 696px;
+  height: auto;
   margin-top: 0%;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .contact-section {
@@ -72,7 +72,7 @@
   padding-left: 4%;
   height: auto;
   margin-top: 0%;
-  padding-top: 90px;
+  padding-top: 80px;
   background-color: black;
   color: azure;
 }
@@ -84,3 +84,19 @@
   border-color: darkgrey;
   padding-bottom: 1%;
 }
+/* .porfile-pic{
+  background-image: url(./assets/img/circle-svg-halftone-2-transparent.png);
+  
+ 
+  background-repeat: no-repeat;
+ 
+  
+}
+
+.pic{
+  width: 237px;
+  border: solid;
+  border-color: black;
+  border-radius: 3%;
+  border-width: 9px;
+} */
