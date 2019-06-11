@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Chakra+Petch&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rajdhani&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Chakra+Petch&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Rajdhani&display=swap");
 
 * {
   padding: 0%;
 }
 
 .font-nav {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 20px;
 }
 
 .font-cont {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nav-color {
@@ -25,7 +25,7 @@
 }
 
 .second-section {
-  padding-top: 20%;
+  padding-top: 8%;
   padding-bottom: 6%;
 }
 
@@ -34,14 +34,13 @@
 }
 
 .text-card-proyect {
-
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .background-black {
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   color: azure;
-  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
   background-color: rgb(40, 42, 44);
 }
 
@@ -85,11 +84,10 @@
   padding-bottom: 1%;
 }
 
-.icon-cont{
+.icon-cont {
   border-top: solid;
   border-bottom: solid;
   border-color: darkgrey;
-  
 }
 /* .porfile-pic{
   background-image: url(./assets/img/circle-svg-halftone-2-transparent.png);
