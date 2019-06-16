@@ -90,6 +90,15 @@
   border-bottom: solid;
   border-color: darkgrey;
 }
+
+@media only screen and (max-width: 570px) {
+  .celphone {
+    display: block !important;
+  }
+  .browser {
+    display: none !important;
+  }
+}
 /* .porfile-pic{
   background-image: url(./assets/img/circle-svg-halftone-2-transparent.png);
   
