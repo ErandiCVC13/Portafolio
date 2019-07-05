@@ -98,6 +98,10 @@
   .browser {
     display: none !important;
   }
+
+  .delatepadding {
+    padding: 0% !important;
+  }
 }
 /* .porfile-pic{
   background-image: url(./assets/img/circle-svg-halftone-2-transparent.png);
